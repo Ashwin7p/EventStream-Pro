@@ -8,19 +8,17 @@
     <artifactId>bank-account</artifactId>
     <version>1.0.0</version>
     <packaging>pom</packaging>
+
     <properties>
-        <maven.compiler.source>22</maven.compiler.source>
-        <maven.compiler.target>22</maven.compiler.target>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>16</maven.compiler.source>
+        <maven.compiler.target>16</maven.compiler.target>
     </properties>
 
     <modules>
-
         <module>../cqrs-es/cqrs.core</module>
-        <module>account.cmd</module>
         <module>account.common</module>
+        <module>account.cmd</module>
         <module>account.query</module>
-
     </modules>
 
 </project>
